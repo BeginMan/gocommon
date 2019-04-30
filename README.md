@@ -1,1 +1,1 @@
-# gocommon
+# gocommon [![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](http://godoc.org/github.com/beginman/gocommon) [![Build Status](http://img.shields.io/travis/labstack/gommon.svg?style=flat-square)](https://travis-ci.org/BeginMan/gocommon) [![Coverage Status](https://coveralls.io/repos/github/BeginMan/gocommon/badge.svg?branch=master)](https://coveralls.io/github/BeginMan/gocommon?branch=master)
