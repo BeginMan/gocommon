@@ -1,13 +1,11 @@
 language: go
 go:
     - 1.11.x
-    - tip
 env:
   - GO111MODULE=on
+
+before_install:
+  - go get github.com/mattn/goveralls
 script:
   - go test -race -coverprofile=coverage.txt -covermode=atomic ./...
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
-matrix:
-  allow_failures:
-    - go: tip
+  - goveralls -service=travis-ci
